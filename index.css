@@ -52,40 +52,40 @@ body {
 }
 
 .images {
-    margin-top: 0%;
+    width: 1903px;
+    height: 1080px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
+    background-image: url(assets/images/Gaming-Background.jpg);
 }
 
 .gearlt {
+    margin-top: 20px;
     border-radius: 25px;
 }
-
-.gearlt:hover {
-    transform: scale(1.04);
-  }
 
 .ellie {
+    margin-top: 20px;
     border-radius: 25px;
 }
-
-.ellie:hover {
-    transform: scale(1.04);
-  }
 
 .kratos {
+    margin-top: 20px;
     border-radius: 25px;
 }
 
-.kratos:hover {
-    transform: scale(1.04);
-  }
+
+.text-background {
+    width: 1903px;
+    height: 500px;
+    background-image: url(assets/images/Gaming-Background-Images.jpg);
+    padding: 250px 0 250px;
+}
 
 .text {
     text-align: center;
-    margin-top: 15px;
     color: white;
     font-size: 3rem;
 }
