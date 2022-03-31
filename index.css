@@ -45,3 +45,53 @@ body {
 .navbar-links li:hover {
     background-color: #555;
 }
+
+.img {
+    height: 500px;
+    width: 1903px;
+}
+
+.images {
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.gearlt {
+    border-radius: 25px;
+}
+
+.gearlt:hover {
+    transform: scale(1.04);
+  }
+
+.ellie {
+    border-radius: 25px;
+}
+
+.ellie:hover {
+    transform: scale(1.04);
+  }
+
+.kratos {
+    border-radius: 25px;
+}
+
+.kratos:hover {
+    transform: scale(1.04);
+  }
+
+.text {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 3rem;
+}
+
+.text-below {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
