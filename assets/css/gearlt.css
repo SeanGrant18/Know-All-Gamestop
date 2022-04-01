@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Boogaloo;
+    margin: 0;
+    padding: 0;
+    background-color: #555;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.top {
+    width: 1920px;
+    height: 500px;
+}
+
+.video {
+    padding-top: 50px;
+    padding-left: 650px;
+    padding-bottom: 50px;
+    background-image: url(../images/witcher-video.png);
+}
+
+.text {
+    height: 500px;
+    width: 1920px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-image: url(../images/witcher-black.png);
+}
+
+.left {
+    margin-top: 50px;
+    color: white;
+    font-size: 1.7rem;
+    width: 500px;
+    height: 500px;
+}
+
+.middle {
+    margin-top: 50px;
+    color: white;
+    font-size: 1.7rem;
+    width: 500px;
+    height: 500px;
+}
