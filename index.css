@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
-
-* {
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
     font-family: Boogaloo;
@@ -12,16 +9,19 @@ body {
 }
 
 .navbar {
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: white;
 }
 
 .brand-title {
-    font-size: 2rem;
-    margin: .5rem;
+    padding-top: 0%;
+}
+
+.brand-title:hover {
+    transform: scale(1.1);
 }
 
 .navbar-links ul{
@@ -35,24 +35,33 @@ body {
 }
 
 .navbar-links li a {
+    font-family: Bebas Neue;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 1rem;
     display: block;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+    transform: scale(1.2);
 }
 
-.img {
+.head-img {
+    width: 1920px;
     height: 500px;
-    width: 1903px;
+    background-image: url(assets/images/gb.jpg);
+}
+
+.head-text {
+    text-align: center;
+    font-size: 5rem;
+    padding: 170px;
+    color: white;
 }
 
 .images {
-    width: 1903px;
+    width: 1920px;
     height: 1080px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -86,23 +95,4 @@ body {
 .kratos {
     margin-top: 20px;
     border-radius: 25px;
-}
-
-.text-background {
-    width: 1903px;
-    height: 500px;
-    background-image: url(assets/images/Gaming-Background-Images.jpg);
-    padding: 250px 0 250px;
-}
-
-.text {
-    text-align: center;
-    color: white;
-    font-size: 3rem;
-}
-
-.text-below {
-    text-align: center;
-    color: white;
-    font-size: 2rem;
 }

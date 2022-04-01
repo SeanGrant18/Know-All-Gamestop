@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
-
-* {
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
     font-family: Boogaloo;
@@ -12,16 +9,19 @@ body {
 }
 
 .navbar {
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: white;
 }
 
 .brand-title {
-    font-size: 2rem;
-    margin: .5rem;
+    padding-top: 0%;
+}
+
+.brand-title:hover {
+    transform: scale(1.1);
 }
 
 .navbar-links ul{
@@ -35,51 +35,14 @@ body {
 }
 
 .navbar-links li a {
+    font-family: Bebas Neue;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 1rem;
     display: block;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
 }
 
 .navbar-links li:hover {
-    background-color: #555;
-}
-
-.top {
-    width: 1920px;
-    height: 500px;
-}
-
-.video {
-    padding-top: 50px;
-    padding-left: 650px;
-    padding-bottom: 50px;
-    background-image: url(../images/witcher-video.png);
-}
-
-.text {
-    height: 500px;
-    width: 1920px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;
-    background-image: url(../images/witcher-black.png);
-}
-
-.left {
-    margin-top: 50px;
-    color: white;
-    font-size: 1.7rem;
-    width: 500px;
-    height: 500px;
-}
-
-.middle {
-    margin-top: 50px;
-    color: white;
-    font-size: 1.7rem;
-    width: 500px;
-    height: 500px;
+    transform: scale(1.2);
 }
