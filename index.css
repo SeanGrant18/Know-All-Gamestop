@@ -61,9 +61,17 @@ body {
     background-image: url(assets/images/Gaming-Background.jpg);
 }
 
+.gearlt:hover {
+    transform: scale(1.04);
+}
+
 .gearlt {
     margin-top: 20px;
     border-radius: 25px;
+}
+
+.ellie:hover {
+    transform: scale(1.04);
 }
 
 .ellie {
@@ -71,11 +79,14 @@ body {
     border-radius: 25px;
 }
 
+.kratos:hover {
+    transform: scale(1.04);
+}
+
 .kratos {
     margin-top: 20px;
     border-radius: 25px;
 }
-
 
 .text-background {
     width: 1903px;
