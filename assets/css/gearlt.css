@@ -50,6 +50,9 @@ body {
 .head-img {
     height: 500px;
     background-image: url(../images/The\ Witcher\ Header.png);
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: white;
 }
 
 .head-text {

@@ -50,6 +50,9 @@ body {
 .head-img {
     height: 500px;
     background-image: url(assets/images/gb.jpg);
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: white;
 }
 
 .head-text {
@@ -75,6 +78,9 @@ body {
 .gearlt {
     margin-top: 20px;
     border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
 
 .ellie:hover {
@@ -84,6 +90,9 @@ body {
 .ellie {
     margin-top: 20px;
     border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
 
 .kratos:hover {
@@ -93,6 +102,9 @@ body {
 .kratos {
     margin-top: 20px;
     border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
 
 .footer {
