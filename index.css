@@ -48,7 +48,6 @@ body {
 }
 
 .head-img {
-    width: 1920px;
     height: 500px;
     background-image: url(assets/images/gb.jpg);
 }
@@ -61,7 +60,6 @@ body {
 }
 
 .images {
-    width: 1920px;
     height: 1080px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -95,4 +93,9 @@ body {
 .kratos {
     margin-top: 20px;
     border-radius: 25px;
+}
+
+.footer {
+    background-color: white;
+    height: 200px;
 }
