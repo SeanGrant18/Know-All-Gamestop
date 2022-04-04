@@ -95,6 +95,10 @@ body {
     border-radius: 25px;
 }
 
-.footer {
+.footer-links {
     height: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
 }
