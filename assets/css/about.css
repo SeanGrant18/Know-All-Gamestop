@@ -195,7 +195,7 @@ button:hover {
 
 @media screen and (max-width: 569px) {
     .navbar-links li a {
-        
+        font-size: 0.7rem;
     }
 
     .brand-title {
