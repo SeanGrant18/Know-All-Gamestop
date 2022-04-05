@@ -49,7 +49,7 @@ body {
 
 .head-img {
     height: 500px;
-    background-image: url(assets/images/gb.jpg);
+    background-image: url(assets/images/Home/gb.jpg);
     border-style: none none solid none;
     border-width: 5px;
     border-color: white;
@@ -68,7 +68,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    background-image: url(assets/images/Gaming-Background.jpg);
+    background-image: url(assets/images/Home/Gaming-Background.jpg);
 }
 
 .gearlt:hover {

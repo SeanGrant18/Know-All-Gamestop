@@ -5,7 +5,7 @@ body {
     font-family: Boogaloo;
     margin: 0;
     padding: 0;
-    background-color: #555;
+    background-color: #e6e6e6;
 }
 
 .navbar {
@@ -45,6 +45,46 @@ body {
 
 .navbar-links li:hover {
     transform: scale(1.2);
+}
+
+.head-img {
+    height: 500px;
+    background-image: url(../images/Ellie/Ellie-header.png);
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: white;
+}
+
+.head-text {
+    font-family: "Bebas Neue";
+    text-align: center;
+    font-size: 5rem;
+    padding: 170px;
+    color: white;
+}
+
+.images {
+    height: 1080px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-image: url(../images/Ellie/ellie-background.png);
+}
+
+.ellie-left {
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.ellie-middle {
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.video {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .footer {

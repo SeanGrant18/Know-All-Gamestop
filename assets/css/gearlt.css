@@ -49,7 +49,7 @@ body {
 
 .head-img {
     height: 500px;
-    background-image: url(../images/The\ Witcher\ Header.png);
+    background-image: url(../images/Gearlt/The\ Witcher\ Header.png);
     border-style: none none solid none;
     border-width: 5px;
     border-color: white;
@@ -69,7 +69,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    background-image: url(../images/background-witcher.png);
+    background-image: url(../images/Gearlt/background-witcher.png);
 }
 
 .gearlt-left {
@@ -78,11 +78,6 @@ body {
 }
 
 .gearlt-middle {
-    margin-top: 20px;
-    border-radius: 25px;
-}
-
-.gearlt-right {
     margin-top: 20px;
     border-radius: 25px;
 }
