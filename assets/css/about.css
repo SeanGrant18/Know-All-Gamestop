@@ -6,7 +6,7 @@ body {
     font-family: Boogaloo;
     margin: 0;
     padding: 0;
-    background-color: #555;
+    background-color: white;
 }
 
 .navbar {
@@ -172,6 +172,17 @@ button:hover {
     }
 }
 
+@media screen and (max-width: 854px) {
+    .navbar-links li a {
+        font-size: 1.5rem;
+    }
+
+    .brand-title {
+        width: 100px;
+        height: 100px;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .about .content img {
         margin-bottom: 35px;
@@ -179,5 +190,16 @@ button:hover {
     .text h1 {
         font-size: 60px;
         margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .navbar-links li a {
+        
+    }
+
+    .brand-title {
+        width: 100px;
+        height: 100px;
     }
 }
