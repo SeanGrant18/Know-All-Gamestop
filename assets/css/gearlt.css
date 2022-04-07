@@ -130,3 +130,92 @@ body {
     font-size: 13px;
     color: #aaa;
 }
+
+@media screen and (max-width: 854px) {
+    .navbar-links li a {
+        font-size: 1.5rem;
+    }
+
+    .brand-title {
+        width: 100px;
+        height: 100px;
+    }
+
+    .gearlt-left {
+        width: 200px;
+        height: 400px;
+    }
+
+    .gearlt-middle {
+        width: 200px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 658px) {
+    .head-text {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .navbar-links li a {
+        font-size: 0.7rem;
+    }
+
+    .head-text {
+        font-size: 2rem;
+    }
+
+    .video { position: relative; 
+        padding-bottom: 56.25%; 
+        padding-top: 30px; 
+        height: 0; 
+        overflow: hidden; 
+    }
+
+    .video iframe, .video object, .video embed { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+    }
+}
+
+@media screen and (max-width: 473px) {
+    .head-text {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .head-img {
+        background-image: url(../images/Gearlt/gearlt-467px.png);
+    }
+
+    .none {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .navbar-links li a {
+        font-size: 0.5rem;
+    }
+
+    .brand-title {
+        width: 50px;
+        height: 50px;
+    }
+
+    .gearlt-left {
+        width: 100px;
+        height: 200px;
+    }
+
+    .gearlt-middle {
+        width: 100px;
+        height: 200px;
+    }
+}
