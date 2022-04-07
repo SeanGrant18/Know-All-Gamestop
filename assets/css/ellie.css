@@ -48,8 +48,11 @@ body {
 }
 
 .head-img {
-    height: 500px;
+    height: 100%;
     background-image: url(../images/Ellie/Ellie-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-style: none none solid none;
     border-width: 5px;
     border-color: white;
@@ -64,27 +67,33 @@ body {
 }
 
 .images-one {
-    height: 1080px;
+    height: 100%;
     background-image: url(../images/Ellie/ellie-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-style: none none solid none;
     border-width: 5px;
     border-color: white;
 }
 
 .ellie-top {
-    padding: 150px 0px 150px 1350px;
+    margin: 150px 0px 150px 1350px;
 }
 
 .images-two {
-    height: 1080px;
+    height: 100%;
     background-image: url(../images/Ellie/IMAGE-TWO-ELLIE.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-style: none none solid none;
     border-width: 5px;
     border-color: white;
 }
 
 .ellie-bottom {
-    padding: 150px 0px 150px 150px;
+    margin: 150px 0px 150px 150px;
 }
 
 .video {

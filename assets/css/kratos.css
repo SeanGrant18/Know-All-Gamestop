@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 body {
     font-family: Boogaloo;
@@ -63,22 +64,88 @@ body {
     color: white;
 }
 
-.images {
-    height: 1080px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
-    background-image: url(../images/Kratos/KRATOS-BACKGROUND.png);
+.about-kratos {
+    font-family: Oswald;
+    background-color: #161922;
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: white;
 }
 
-.kratos-left {
-    margin-top: 20px;
+.about-kratos .content img {
+    width: 1000px;
 }
 
-.kratos-middle {
-    margin-top: 20px;
+.text {
+    width: 500px;
+    max-width: 100%;
+    margin-left: 250px;
 }
+
+.content {
+    display: inline-flex;
+}
+
+.text h1 {
+    color: #ffcc74;
+    font-size: 85px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.text p {
+    color: #c0c4d6;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+.about-kratos2 {
+    font-family: Oswald;
+    background-color: #161922;
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: white;
+}
+
+.about-kratos2 .content2 img {
+    width: 1000px;
+    margin-left: 153px;
+}
+
+.text2 {
+    width: 500px;
+    max-width: 100%;
+    margin-left: 250px;
+}
+
+.content2 {
+    display: inline-flex;
+
+}
+
+.text2 h1 {
+    color: #ffcc74;
+    font-size: 85px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.text2 p {
+    color: #c0c4d6;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.text2 li {
+    color: #c0c4d6;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
 
 .video {
     margin-top: 50px;

@@ -49,8 +49,11 @@ body {
 }
 
 .head-img {
-    height: 500px;
+    height: 100%;
     background-image: url(assets/images/Home/gb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-style: none none solid none;
     border-width: 5px;
     border-color: white;
@@ -66,12 +69,15 @@ body {
 .images {
     padding-top: 50px;
     padding-bottom: 50px;
-    height: auto;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
     background-image: url(assets/images/Home/Gaming-Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .gearlt:hover {
