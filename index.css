@@ -5,7 +5,7 @@ body {
     font-family: Boogaloo;
     margin: 0;
     padding: 0;
-    background-color: #555;
+    background-color: white;
 }
 
 .navbar {
@@ -191,6 +191,10 @@ body {
         font-size: 2rem;
     }
 
+    .images {
+        height: 500px;
+    }
+
     .gearlt {
         width: 100px;
         height: 200px;
@@ -224,7 +228,11 @@ body {
     }
 
     .head-img {
-        width: 504px;
+        width: auto;
         height: auto;
+    }
+
+    .images {
+        height: 300px;
     }
   }

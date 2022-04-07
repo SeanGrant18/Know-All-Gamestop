@@ -63,21 +63,28 @@ body {
     color: white;
 }
 
-.images {
+.images-one {
     height: 1080px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
     background-image: url(../images/Ellie/ellie-background.png);
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: white;
 }
 
-.ellie-left {
-    margin-top: 20px;
+.ellie-top {
+    padding: 150px 0px 150px 1350px;
 }
 
-.ellie-middle {
-    margin-top: 20px;
+.images-two {
+    height: 1080px;
+    background-image: url(../images/Ellie/IMAGE-TWO-ELLIE.jpg);
+    border-style: none none solid none;
+    border-width: 5px;
+    border-color: white;
+}
+
+.ellie-bottom {
+    padding: 150px 0px 150px 150px;
 }
 
 .video {
