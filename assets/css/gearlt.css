@@ -197,6 +197,16 @@ body {
     .none {
         display: none;
     }
+
+    .gearlt-left {
+        width: 100px;
+        height: 200px;
+    }
+
+    .gearlt-middle {
+        width: 100px;
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 404px) {
@@ -217,5 +227,15 @@ body {
     .gearlt-middle {
         width: 100px;
         height: 200px;
+    }
+}
+
+@media screen and (max-width: 343px) {
+    .brand-title {
+        display: none;
+    }
+
+    .head-text {
+        padding: 120px;
     }
 }
