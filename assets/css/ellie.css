@@ -138,3 +138,201 @@ body {
     font-size: 13px;
     color: #aaa;
 }
+
+@media screen and (max-width: 1752px) {
+    .ellie-top {
+        margin: 150px 0px 150px 1250px;
+    }
+}
+
+@media screen and (max-width: 1656px) {
+    .ellie-top {
+        margin: 150px 0px 150px 1150px;
+    }
+}
+
+@media screen and (max-width: 1552px) {
+    .ellie-top {
+        margin: 150px 0px 150px 1050px;
+    }
+}
+
+@media screen and (max-width: 1452px) {
+    .ellie-top {
+        margin: 150px 0px 150px 950px;
+    }
+}
+
+@media screen and (max-width: 1352px) {
+    .ellie-top {
+        margin: 150px 0px 150px 850px;
+    }
+}
+
+@media screen and (max-width: 1248px) {
+    .ellie-top {
+        width: 300px;
+        height: 600px;
+        margin: 150px 0px 150px 850px;
+    }
+
+    .ellie-bottom {
+        width: 300px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .ellie-top {
+        margin: 150px 0px 150px 750px;
+    }
+}
+
+@media screen and (max-width: 1048px) {
+    .ellie-top {
+        margin: 150px 0px 150px 650px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .ellie-top {
+        width: 200px;
+        height: 400px;
+        margin: 150px 0px 150px 650px;
+    }
+
+    .ellie-bottom {
+        width: 200px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 856px) {
+    .navbar-links li a {
+        font-size: 1.5rem;
+    }
+
+    .brand-title {
+        width: 100px;
+        height: 100px;
+    }
+
+    .ellie-top {
+        margin: 150px 0px 150px 550px;
+    }
+}
+
+@media screen and (max-width: 752px) {
+    .ellie-top {
+        margin: 150px 0px 150px 500px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ellie-top {
+        width: 150px;
+        height: 250px;
+        margin: 150px 0px 150px 500px;
+    }
+
+    .ellie-bottom {
+        width: 150px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .ellie-top {
+        margin: 150px 0px 150px 450px;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .navbar-links li a {
+        font-size: 1.4rem;
+    }
+
+    .ellie-top {
+        margin: 150px 0px 150px 400px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .navbar-links li a {
+        font-size: 1.2rem;
+    }
+
+    .ellie-top {
+        margin: 150px 0px 150px 350px;
+    }
+
+    .video { position: relative; 
+        padding-bottom: 56.25%; 
+        padding-top: 30px; 
+        height: 0; 
+        overflow: hidden; 
+    }
+
+    .video iframe, .video object, .video embed { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .navbar-links li a {
+        font-size: 1rem;
+    }
+
+    .ellie-top {
+        margin: 150px 0px 150px 300px;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .navbar-links li a {
+        font-size: 0.7rem;
+    }
+
+    .ellie-top {
+        width: 100px;
+        height: 200px;
+        margin: 150px 0px 150px 300px;
+    }
+
+    .ellie-bottom {
+        width: 100px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 409px) {
+
+    .brand-title {
+        display: none;
+    }
+
+    .ellie-top {
+        margin: 150px 0px 150px 300px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .head-img {
+        background-image: url(../images/Ellie/ellie-391px.png);
+    }
+    .head-text {
+        padding: 120px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .ellie-top {
+        margin: 150px 0px 150px 200px;
+    }
+}
