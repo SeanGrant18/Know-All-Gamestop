@@ -204,3 +204,32 @@ textarea{
 		height: 200px;
 	}
 }
+
+@media screen and (max-width: 854px){
+	.navbar-links li a {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 672px){
+	.brand-title {
+        width: 100px;
+        height: 100px;
+    }
+
+	.navbar-links li a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 467px){
+	.navbar-links li a {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 467px){
+	.brand-title {
+        display: none;
+    }
+}
