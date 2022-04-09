@@ -203,3 +203,10 @@ button:hover {
         height: 100px;
     }
 }
+
+@media screen and (max-width: 409px) {
+
+    .brand-title {
+        display: none;
+    }
+}
