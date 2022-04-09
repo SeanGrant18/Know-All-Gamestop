@@ -57,71 +57,55 @@ This section is to give the user a breif video which enables the user to get mor
 
 # Ellie Page
 
+![Ellie Responsive Page!](assets/images/README.md/Overview%20Of%20Ellie.PNG "Ellie Responsive Image")
+
 ## The Landing Page Image
 
-This image is from the home page, I made this the Landing Image as it make the overall website easier to navigate.
+This image is a Cinematic scene in the Game.
 
-![Ellie Landing Image!](/images/Ellielanding.PNG "Ellie Landing Image")
-
-## Navigation Bar
-
-The Navigation bar in the page "Ellie" is shortened to make a more simplistic design and easy navigation.
-
-![Ellie Nav Image!](/images/Ellienav.PNG "Ellie Nav Image")
-
-## Interatcion Section
-
-This section has three images of the character for the user to view.
-
-![Three Ellie Image!](/images/threeellie.PNG "Three Ellie Image")
+![Ellie Landing Image!](assets/images/README.md/EllieHeader.PNG "Ellie Landing Image")
 
 ## About Ellie
 
 This section is the main purpose of the website, it gives a breif discription of "Ellie". This simplistic design enables the user to get the information about the character whilst not being overwhelmed by an enormous amout of information.
 
-![About Ellie Image!](/images/aboutellie.PNG "About Ellie Image")
+![About Ellie Image!](assets/images/README.md/AboutEllie1.PNG "About Ellie Image")
+![About Ellie Image!](assets/images/README.md/AboutEllie2.PNG "About Ellie Image")
 
 ## YouTube Video
 
 This section is to give the user a breif video which enables the user to get more information on the character.
 
-![YouTube Image!](/images/ytellie.PNG "YouTube Image")
+![YouTube Image!](assets/images/README.md/YouTube%20Trailer%20ellie.PNG "YouTube Image")
 
 # Kratos Page
 
-[Kratos Page](https://seangrant18.github.io/Website/Know-all-gamestop-kratos.html)
-
 ## The Landing Page Image
 
-This image is from the home page, I made this the Landing Image as it make the overall website easier to navigate.
+This image is a Cinematic scene in the Game.
 
-![Kratos Landing Image!](/images/kratoslanding.PNG "Kratos Landing Image")
-
-## Navigation Bar
-
-The Navigation bar in the page "Kratos" is shortened to make a more simplistic design and easy navigation.
-
-![Kratos Nav Image!](/images/kratosnav.PNG "Kratos Nav Image")
-
-## Interatcion Section
-
-This section has three images of the character for the user to view.
-
-![Three Kratos Image!](/images/threekratos.PNG "Three Kratos Image")
+![Kratos Landing Image!](assets/images/README.md/KratosLandingImage.PNG "Kratos Landing Image")
 
 ## About Kratos
 
 This section is the main purpose of the website, it gives a breif discription of "Kratos". This simplistic design enables the user to get the information about the character whilst not being overwhelmed by an enormous amout of information.
 
-![About Kratos Image!](/images/aboutkratos.PNG "About Kratos Image")
+![About Kratos Image!](assets/images/README.md/AboutKratos1.PNG "About Kratos Image")
+![About Kratos Image!](assets/images/README.md/AboutKratos2.PNG "About Kratos Image")
 
 ## YouTube Video
 
 This section is to give the user a breif video which enables the user to get more information on the character.
 
-![YouTube Image!](/images/ytkratos.PNG "YouTube Image")
+![YouTube Image!](assets/images/README.md/YouTube%20Trailer%20Kratos.PNG "YouTube Image")
 
+# About Page
 
+![About Image!](assets/images/README.md/aboutme.PNG "About Image")
+
+# Contact Page
+
+![Contact Image!](assets/images/README.md/contact.PNG "Contact Image")
 
 # Testing
 
@@ -148,10 +132,9 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://seangrant18.github.io/Website/
+The live link can be found here - https://seangrant18.github.io/Know-All-Gamestop/index.html
 
 ## Content
-* Landing page Header was taken from the Code Institute Coders coffeehouse Website
 * Instructions on how to implement the YouTube elements was taken from [W3Schools](https://www.w3schools.com/html/default.asp)
 * Font was taken from [Google Fonts](https://fonts.google.com/)
 
