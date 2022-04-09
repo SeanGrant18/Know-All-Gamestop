@@ -49,7 +49,7 @@ body {
 
 .head-img {
     height: 100%;
-    background-image: url(../images/Gearlt/The\ Witcher\ Header.png);
+    background-image: url(../images/Gearlt/The-Witcher-Header.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -89,8 +89,10 @@ body {
 }
 
 .video {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .footer {
@@ -167,20 +169,19 @@ body {
         font-size: 2rem;
     }
 
-    .video { position: relative; 
+    .video{
+        position: relative;
+        width: 100%;
         padding-bottom: 56.25%; 
-        padding-top: 30px; 
-        height: 0; 
-        overflow: hidden; 
-    }
-
-    .video iframe, .video object, .video embed { 
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        width: 100%; 
-        height: 100%; 
-    }
+        height: 0;
+      }
+      .video iframe{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
 }
 
 @media screen and (max-width: 473px) {

@@ -120,7 +120,8 @@ body {
     text-align: center;
 }
 
-.text2 li {
+.text2 ul {
+    list-style: none;
     color: white;
     line-height: 28px;
     letter-spacing: 1px;
