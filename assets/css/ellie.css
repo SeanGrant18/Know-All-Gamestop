@@ -255,6 +255,10 @@ body {
     .ellie-top {
         margin: 150px 0px 150px 400px;
     }
+
+    .ellie-bottom {
+        margin: 150px 0px 150px 50px;
+    }
 }
 
 @media screen and (max-width: 560px) {
@@ -290,6 +294,10 @@ body {
     .ellie-top {
         margin: 150px 0px 150px 300px;
     }
+
+    .ellie-bottom {
+        margin: 150px 0px 150px 50px;
+    }
 }
 
 @media screen and (max-width: 467px) {
@@ -306,6 +314,7 @@ body {
     .ellie-bottom {
         width: 100px;
         height: 200px;
+        margin: 150px 0px 150px 50px;
     }
 }
 
@@ -313,10 +322,6 @@ body {
 
     .brand-title {
         display: none;
-    }
-
-    .ellie-top {
-        margin: 150px 0px 150px 300px;
     }
 }
 
@@ -334,5 +339,9 @@ body {
 
     .ellie-top {
         margin: 150px 0px 150px 200px;
+    }
+
+    .ellie-bottom {
+        margin: 150px 0px 150px 50px;
     }
 }
