@@ -233,3 +233,10 @@ textarea{
         display: none;
     }
 }
+
+@media screen and (max-width: 305px) {
+    .navbar-links li a {
+        font-size: 0.5rem;
+    }
+    
+  }

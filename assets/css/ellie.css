@@ -345,3 +345,10 @@ body {
         margin: 150px 0px 150px 50px;
     }
 }
+
+@media screen and (max-width: 305px) {
+    .navbar-links li a {
+        font-size: 0.5rem;
+    }
+    
+  }
