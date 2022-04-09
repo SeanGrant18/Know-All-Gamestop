@@ -67,91 +67,65 @@ body {
     color: white;
 }
 
-.about-kratos {
-    height: auto;
-    width: auto;
-    font-family: Oswald;
+.About-Kratos {
     background-color: #161922;
-    border-style: none none solid none;
-    border-width: 5px;
-    border-color: white;
 }
 
-.about-kratos .content img {
-    width: auto;
-    height: auto;
+.responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 30px 0px 0px 0px;
 }
 
 .text {
-    width: 500px;
-    max-width: 100%;
-    margin-left: 250px;
-}
-
-.content {
-    display: inline-flex;
+    padding: 0px 200px 50px;
+    font-family: Oswald;
+    color: white;
 }
 
 .text h1 {
-    color: #ffcc74;
-    font-size: 85px;
-    margin-bottom: 20px;
-    text-transform: capitalize;
+    text-align: center;
+    color: orange;
+    font-size: 50px;
 }
 
 .text p {
-    color: #c0c4d6;
-    font-size: 18px;
+    color: white;
     line-height: 28px;
     letter-spacing: 1px;
-    margin-bottom: 45px;
 }
 
-.about-kratos2 {
-    font-family: Oswald;
+.About-Kratos2 {
     background-color: #161922;
-    border-style: none none solid none;
-    border-width: 5px;
-    border-color: white;
-}
-
-.about-kratos2 .content2 img {
-    width: 1000px;
-    margin-left: 153px;
 }
 
 .text2 {
-    width: 500px;
-    max-width: 100%;
-    margin-left: 250px;
-}
-
-.content2 {
-    display: inline-flex;
-
+    padding: 0px 200px 50px;
+    font-family: Oswald;
+    color: white;
 }
 
 .text2 h1 {
-    color: #ffcc74;
-    font-size: 85px;
-    margin-bottom: 20px;
-    text-transform: capitalize;
+    text-align: center;
+    color: orange;
+    font-size: 50px;
 }
 
 .text2 p {
-    color: #c0c4d6;
-    font-size: 18px;
+    color: white;
     line-height: 28px;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 .text2 li {
-    color: #c0c4d6;
-    font-size: 18px;
+    color: white;
     line-height: 28px;
     letter-spacing: 1px;
+    text-align: center;
 }
-
 
 .video {
     margin-top: 50px;
@@ -194,4 +168,100 @@ body {
     text-align: center;
     font-size: 13px;
     color: #aaa;
+}
+
+@media screen and (max-width: 854px) {
+    .navbar-links li a {
+        font-size: 1.5rem;
+    }
+
+    .brand-title {
+        width: 100px;
+        height: 100px;
+    }
+
+    .text {
+        padding: 0px 80px 50px;
+    }
+
+    .text2 {
+        padding: 0px 80px 50px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .navbar-links li a {
+        font-size: 0.7rem;
+    }
+
+    .brand-title {
+        width: 100px;
+        height: 100px;
+    }
+
+    .text {
+        padding: 0px 80px 50px;
+    }
+
+    .text2 {
+        padding: 0px 80px 50px;
+    }
+
+    .video { position: relative; 
+        padding-bottom: 56.25%; 
+        padding-top: 30px; 
+        height: 0; 
+        overflow: hidden; 
+    }
+
+    .video iframe, .video object, .video embed { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+    }
+}
+
+@media screen and (max-width: 508px) {
+    .head-img {
+        background-image: url(../images/Kratos/kratos-508px.png);
+    }
+
+    .none {
+        display: none;
+    }
+
+    .responsive {
+        display: none;
+    }
+
+    .text {
+        padding: 10px 80px 50px;
+    }
+
+    .text2 {
+        padding: 10px 80px 50px;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .navbar-links li a {
+        font-size: 0.5rem;
+    }
+
+    .brand-title {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 343px) {
+    .brand-title {
+        display: none;
+    }
+
+    .head-text {
+        padding: 120px;
+    }
 }
