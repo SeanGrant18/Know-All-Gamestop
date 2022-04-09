@@ -101,9 +101,13 @@ This section is to give the user a breif video which enables the user to get mor
 
 # About Page
 
+This Page Is To Tell The User Who Build The Website And A Little About The Developer.
+
 ![About Image!](assets/images/README.md/aboutme.PNG "About Image")
 
 # Contact Page
+
+This Page Is To Allow The User To Contact The Developer For Any Reason Or Even To Just Report A Bug On The Website.
 
 ![Contact Image!](assets/images/README.md/contact.PNG "Contact Image")
 
